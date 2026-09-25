@@ -95,7 +95,7 @@ export const apiPaths = {
   serverStats: '/api/v1/server/stats',
   search: (query) => `/api/v1/search?q=${encodeURIComponent(query)}`,
   volunteerLocations: '/api/v1/volunteers/locations',
-  coordinatorsMetrics: '/api/v1/coordinators/metrics',
+  coordinatorsMetrics: '/api/v1/coordinator/metrics',
   disasterReport: (id) => `/api/v1/disasters/${id}/report`,
 
   // Live locations (Redis)

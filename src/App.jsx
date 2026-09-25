@@ -135,6 +135,7 @@ function AppRoutes() {
         <Route path="live-map" element={<Navigate to="/map" replace />} />
         <Route path="server" element={<ServerMonitor />} />
         <Route path="audit-logs" element={<AdminAuditLogs />} />
+        <Route path="command" element={<CommandDashboard />} />
       </Route>
 
       {/* Organization Onboarding — open to any authenticated user */}
